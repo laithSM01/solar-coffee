@@ -1,0 +1,10 @@
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Services.deps.json
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Services.dll
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Services.pdb
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.AssemblyInfoInputs.cache
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.AssemblyInfo.cs
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.csproj.CoreCompileInputs.cache
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.sourcelink.json
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.dll
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.pdb

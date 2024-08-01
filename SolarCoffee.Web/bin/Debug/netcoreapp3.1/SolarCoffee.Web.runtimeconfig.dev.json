@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Sitech\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Sitech\\.nuget\\packages"
+    ]
+  }
+}
