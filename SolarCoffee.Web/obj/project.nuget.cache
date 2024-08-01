@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CWR8E6pQgc0=",
+  "dgSpecHash": "sSAh0Xezb7I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
+  "projectFilePath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sitech\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\Sitech\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

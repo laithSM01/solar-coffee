@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj": {}
+    "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj": {
+    "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj",
         "projectName": "SolarCoffee.Data",
-        "projectPath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj",
+        "projectPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj",
         "packagesPath": "C:\\Users\\Sitech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\obj\\",
+        "outputPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sitech\\AppData\\Roaming\\NuGet\\NuGet.Config",

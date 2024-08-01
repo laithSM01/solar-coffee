@@ -3049,11 +3049,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
       "projectName": "SolarCoffee.Web",
-      "projectPath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
+      "projectPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
       "packagesPath": "C:\\Users\\Sitech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\obj\\",
+      "outputPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sitech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3070,8 +3070,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj": {
-              "projectPath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj"
+            "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj": {
+              "projectPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj"
             }
           }
         }

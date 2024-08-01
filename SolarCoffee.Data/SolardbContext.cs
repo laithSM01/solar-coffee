@@ -13,5 +13,11 @@ namespace SolarCoffee.Data
         public SolardbContext(DbContextOptions options) : base(options) { }
         public virtual DbSet<Customer> Customers { get; set; } //create table called Customers c:
         public virtual DbSet<CustomerAdresses> CustomerAdresses{ get; set; }
+        public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<ProductInventory> ProductInventorys { get; set; }
+        public virtual DbSet<ProductInventorySnapshot> ProductInventorySnapshots { get; set; }
+        public virtual DbSet<SalesOrder> SalesOrders { get; set; }
+        public virtual DbSet<SalesOrderItem> SalesOrderItems { get; set; }
+
     }
 }

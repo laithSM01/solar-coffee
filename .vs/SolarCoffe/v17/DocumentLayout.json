@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\",
+  "WorkspaceRootPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD12DCDE-4D94-4A7E-AFB0-A0864C5A6D26}|SolarCoffee.Web\\SolarCoffee.Web.csproj|c:\\users\\sitech\\source\\repos\\solar coffe\\solarcoffee.web\\solarcoffee.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BD12DCDE-4D94-4A7E-AFB0-A0864C5A6D26}|SolarCoffee.Web\\SolarCoffee.Web.csproj|solutionrelative:solarcoffee.web\\solarcoffee.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD12DCDE-4D94-4A7E-AFB0-A0864C5A6D26}|SolarCoffee.Web\\SolarCoffee.Web.csproj|c:\\users\\sitech\\source\\repos\\solar coffe\\solarcoffee.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BD12DCDE-4D94-4A7E-AFB0-A0864C5A6D26}|SolarCoffee.Web\\SolarCoffee.Web.csproj|solutionrelative:solarcoffee.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD12DCDE-4D94-4A7E-AFB0-A0864C5A6D26}|SolarCoffee.Web\\SolarCoffee.Web.csproj|c:\\users\\sitech\\source\\repos\\solar coffe\\solarcoffee.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD12DCDE-4D94-4A7E-AFB0-A0864C5A6D26}|SolarCoffee.Web\\SolarCoffee.Web.csproj|solutionrelative:solarcoffee.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|c:\\users\\sitech\\source\\repos\\solar coffe\\solarcoffee.data\\solardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|c:\\users\\sitech\\source\\repos\\solarcoffe\\solarcoffee.data\\solardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|solutionrelative:solarcoffee.data\\solardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|c:\\users\\sitech\\source\\repos\\solarcoffe\\solarcoffee.data\\models\\salesorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|solutionrelative:solarcoffee.data\\models\\salesorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|c:\\users\\sitech\\source\\repos\\solarcoffe\\solarcoffee.data\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|solutionrelative:solarcoffee.data\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|c:\\users\\sitech\\source\\repos\\solarcoffe\\solarcoffee.data\\models\\productinventorysnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|solutionrelative:solarcoffee.data\\models\\productinventorysnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|c:\\users\\sitech\\source\\repos\\solarcoffe\\solarcoffee.data\\models\\productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|solutionrelative:solarcoffee.data\\models\\productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|c:\\users\\sitech\\source\\repos\\solarcoffe\\solarcoffee.data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E16B40-C370-4919-93B5-2C7D355C13CD}|SolarCoffee.Data\\SolarCoffee.Data.csproj|solutionrelative:solarcoffee.data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SolarCoffee.Web.csproj",
-              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
-              "RelativeDocumentMoniker": "SolarCoffee.Web\\SolarCoffee.Web.csproj",
-              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\SolarCoffee.Web.csproj",
-              "RelativeToolTip": "SolarCoffee.Web\\SolarCoffee.Web.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-01T06:53:48.427Z",
+              "DocumentIndex": 1,
+              "Title": "SalesOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\SalesOrderItem.cs",
+              "RelativeDocumentMoniker": "SolarCoffee.Data\\Models\\SalesOrderItem.cs",
+              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\SalesOrderItem.cs",
+              "RelativeToolTip": "SolarCoffee.Data\\Models\\SalesOrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:32:22.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\SalesOrder.cs",
+              "RelativeDocumentMoniker": "SolarCoffee.Data\\Models\\SalesOrder.cs",
+              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\SalesOrder.cs",
+              "RelativeToolTip": "SolarCoffee.Data\\Models\\SalesOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:32:02.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ProductInventorySnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\ProductInventorySnapshot.cs",
+              "RelativeDocumentMoniker": "SolarCoffee.Data\\Models\\ProductInventorySnapshot.cs",
+              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\ProductInventorySnapshot.cs",
+              "RelativeToolTip": "SolarCoffee.Data\\Models\\ProductInventorySnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:31:34.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductInventory.cs",
+              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\ProductInventory.cs",
+              "RelativeDocumentMoniker": "SolarCoffee.Data\\Models\\ProductInventory.cs",
+              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\ProductInventory.cs",
+              "RelativeToolTip": "SolarCoffee.Data\\Models\\ProductInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:31:00.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SolardbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolardbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolardbContext.cs",
               "RelativeDocumentMoniker": "SolarCoffee.Data\\SolardbContext.cs",
-              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Data\\SolardbContext.cs",
+              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolardbContext.cs",
               "RelativeToolTip": "SolarCoffee.Data\\SolardbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T19:00:16.788Z"
+              "WhenOpened": "2024-08-01T08:30:16.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "SolarCoffee.Web\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\appsettings.Development.json",
-              "RelativeToolTip": "SolarCoffee.Web\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-31T17:48:36.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\Startup.cs",
-              "RelativeDocumentMoniker": "SolarCoffee.Web\\Startup.cs",
-              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Web\\Startup.cs",
-              "RelativeToolTip": "SolarCoffee.Web\\Startup.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAABCAAAA",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "SolarCoffee.Data\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\Models\\Product.cs",
+              "RelativeToolTip": "SolarCoffee.Data\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T09:32:55.073Z"
+              "WhenOpened": "2024-08-01T08:30:06.86Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oNL7lwMDVJc=",
+  "dgSpecHash": "lC6TQM/+qiY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sitech\\source\\repos\\Solar Coffe\\SolarCoffee.Test\\SolarCoffee.Test.csproj",
+  "projectFilePath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Test\\SolarCoffee.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sitech\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Sitech\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
