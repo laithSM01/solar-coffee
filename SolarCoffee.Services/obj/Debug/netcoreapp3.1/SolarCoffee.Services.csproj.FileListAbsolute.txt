@@ -8,3 +8,17 @@ C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcore
 C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.sourcelink.json
 C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.dll
 C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.pdb
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.AssemblyInfoInputs.cache
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.AssemblyInfo.cs
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.csproj.CoreCompileInputs.cache
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.sourcelink.json
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.dll
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.pdb
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Services.deps.json
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Services.dll
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Services.pdb
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Data.dll
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\bin\Debug\netcoreapp3.1\SolarCoffee.Data.pdb
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCoffee.Services.csproj.AssemblyReference.cache
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Services\obj\Debug\netcoreapp3.1\SolarCof.C0B09E59.Up2Date

@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SolarCoffee.Data;
+using SolarCoffee.Services.product;
 
 
 namespace SolarCoffee.Web
@@ -36,6 +37,8 @@ namespace SolarCoffee.Web
                 opts.EnableDetailedErrors();
                 opts.UseNpgsql(Configuration.GetConnectionString("solar_dev"));
             });
+            //hey dotnet anytime i ask for a productservice , provide me with a productService instance
+           services.AddTransient<IProductService, ProductService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

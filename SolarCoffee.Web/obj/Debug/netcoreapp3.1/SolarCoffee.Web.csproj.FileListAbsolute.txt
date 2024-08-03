@@ -162,3 +162,5 @@ C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Web\obj\Debug\netcoreapp3.1\
 C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Web\obj\Debug\netcoreapp3.1\SolarCoffee.Web.dll
 C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Web\obj\Debug\netcoreapp3.1\SolarCoffee.Web.pdb
 C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Web\obj\Debug\netcoreapp3.1\SolarCoffee.Web.genruntimeconfig.cache
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Web\bin\Debug\netcoreapp3.1\SolarCoffee.Services.dll
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Web\bin\Debug\netcoreapp3.1\SolarCoffee.Services.pdb

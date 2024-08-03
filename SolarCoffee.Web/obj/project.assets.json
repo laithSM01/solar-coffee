@@ -1296,6 +1296,19 @@
         "runtime": {
           "bin/placeholder/SolarCoffee.Data.dll": {}
         }
+      },
+      "SolarCoffee.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SolarCoffee.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SolarCoffee.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SolarCoffee.Services.dll": {}
+        }
       }
     }
   },
@@ -3031,6 +3044,11 @@
       "type": "project",
       "path": "../SolarCoffee.Data/SolarCoffee.Data.csproj",
       "msbuildProject": "../SolarCoffee.Data/SolarCoffee.Data.csproj"
+    },
+    "SolarCoffee.Services/1.0.0": {
+      "type": "project",
+      "path": "../SolarCoffee.Services/SolarCoffee.Services.csproj",
+      "msbuildProject": "../SolarCoffee.Services/SolarCoffee.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3040,7 +3058,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.1",
       "Newtonsoft.Json >= 13.0.1",
-      "SolarCoffee.Data >= 1.0.0"
+      "SolarCoffee.Data >= 1.0.0",
+      "SolarCoffee.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3072,6 +3091,9 @@
           "projectReferences": {
             "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj": {
               "projectPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Data\\SolarCoffee.Data.csproj"
+            },
+            "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Services\\SolarCoffee.Services.csproj": {
+              "projectPath": "C:\\Users\\Sitech\\source\\repos\\SolarCoffe\\SolarCoffee.Services\\SolarCoffee.Services.csproj"
             }
           }
         }

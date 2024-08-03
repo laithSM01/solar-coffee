@@ -37,6 +37,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.1",
           "Newtonsoft.Json": "13.0.1",
           "SolarCoffee.Data": "1.0.0",
+          "SolarCoffee.Services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies.Reference": "3.1.0.0",
@@ -1147,6 +1148,17 @@
         },
         "compile": {
           "SolarCoffee.Data.dll": {}
+        }
+      },
+      "SolarCoffee.Services/1.0.0": {
+        "dependencies": {
+          "SolarCoffee.Data": "1.0.0"
+        },
+        "runtime": {
+          "SolarCoffee.Services.dll": {}
+        },
+        "compile": {
+          "SolarCoffee.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3262,6 +3274,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "SolarCoffee.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolarCoffee.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
