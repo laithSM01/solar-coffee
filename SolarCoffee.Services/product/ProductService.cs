@@ -39,7 +39,7 @@ namespace SolarCoffee.Services.product
                     IdealQuantity = 10,
                 };
                 // we added it in Inventories table for tracking
-                _db.ProductInventorys.Add(newInventory);
+                _db.ProductInventories.Add(newInventory);
                 _db.SaveChanges();
 
                 return new ServiceResponse<Data.Models.Product> {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolarCoffee.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1da5cf9d67c7ba5552b072925feae311668bd3c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e0232b20860eb7db6a0fed890eb80ffa6fa355")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolarCoffee.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolarCoffee.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
