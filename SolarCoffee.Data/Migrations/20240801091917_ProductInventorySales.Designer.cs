@@ -225,21 +225,18 @@ namespace SolarCoffee.Data.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("timestamp without time zone");
 
-                    b.Property<int?>("MainAdressesId")
-                        .HasColumnType("integer");
+                   
 
-                    b.Property<DateTime>("UpdateOn")
+                    b.Property<DateTime>("UpdatedOn")
                         .HasColumnType("timestamp without time zone");
 
-                    b.Property<string>("firstName")
+                    b.Property<string>("FirstName")
                         .HasColumnType("text");
 
-                    b.Property<string>("lastName")
+                    b.Property<string>("LastName")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("MainAdressesId");
 
                     b.ToTable("Customers");
                 });
@@ -475,12 +472,6 @@ namespace SolarCoffee.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("SolarCoffee.Data.Models.Customer", b =>
-                {
-                    b.HasOne("SolarCoffee.Data.Models.CustomerAdresses", "MainAdresses")
-                        .WithMany()
-                        .HasForeignKey("MainAdressesId");
-                });
 
             modelBuilder.Entity("SolarCoffee.Data.Models.ProductInventory", b =>
                 {

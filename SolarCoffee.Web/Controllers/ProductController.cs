@@ -28,5 +28,17 @@ namespace SolarCoffee.Web.Controllers
             ProductMapper.SerializeProductModel(product));
             return Ok(productViewModels);
         }
+        /// <summary>
+        /// Archive a product
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpPatch("/api/product/{id}")] //updating the product instance
+        public ActionResult ArchiveProduct(int id)
+        {
+            _logger.LogInformation($"Archiving product {id}");
+            var archiveResult = _productService.ArchiveProduct(id);
+            return Ok(archiveResult);
+        }
     }
 }

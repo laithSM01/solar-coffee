@@ -8,10 +8,10 @@ namespace SolarCoffee.Data.Models
     {
         public int Id { get; set; }
         public DateTime CreatedOn { get; set; } // customer first created
-        public DateTime UpdateOn { get; set; } // customer last updated
-        public string firstName { get; set; }
-        public string lastName { get; set; }
+        public DateTime UpdatedOn { get; set; } // customer last updated
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
-        public CustomerAdresses MainAdresses { get; set; }
+        public CustomerAdresses PrimaryAddress { get; set; }
     }
 }

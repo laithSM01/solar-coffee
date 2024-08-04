@@ -22,8 +22,8 @@ namespace SolarCoffee.Services.Customer
         /// <returns>List<Customer></returns>
         public List<Data.Models.Customer> GetAllCustomers() {
             return _db.Customers
-                .Include(customer => customer.MainAdresses)
-                .OrderBy(customer => customer.lastName)
+                .Include(customer => customer.PrimaryAddress)
+                .OrderBy(customer => customer.LastName)
                 .ToList();
         }
 
@@ -99,7 +99,7 @@ namespace SolarCoffee.Services.Customer
         /// </summary>
         /// <param name="id">int customer primary key</param>
         /// <returns>Customer</returns>
-        public Data.Models.Customer GetById(int id) {
+        public Data.Models.Customer GetCustomerById(int id) {
             return _db.Customers.Find(id);
            // return _db.Customers.FirstOrDefault(x => x.Id == id); same 
         }

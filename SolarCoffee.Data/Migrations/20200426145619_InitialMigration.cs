@@ -48,7 +48,7 @@ namespace SolarCoffee.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CustomerAdresses",
+                name: "CustomerAddresses",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -58,13 +58,13 @@ namespace SolarCoffee.Data.Migrations
                     AddressLine1 = table.Column<string>(maxLength: 100, nullable: true),
                     AddressLine2 = table.Column<string>(maxLength: 100, nullable: true),
                     City = table.Column<string>(maxLength: 100, nullable: true),
-                    State = table.Column<string>(maxLength: 2, nullable: true),
-                    PostalCode = table.Column<string>(maxLength: 10, nullable: true),
-                    Country = table.Column<string>(maxLength: 100, nullable: true)
+                    State = table.Column<string>(maxLength: 3, nullable: true),
+                    PostalCode = table.Column<string>(maxLength: 7, nullable: true),
+                    Country = table.Column<string>(maxLength: 32, nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_CustomerAdresses", x => x.Id);
+                    table.PrimaryKey("PK_CustomerAddresses", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -180,18 +180,18 @@ namespace SolarCoffee.Data.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     CreatedOn = table.Column<DateTime>(nullable: false),
-                    UpdateOn = table.Column<DateTime>(nullable: false),
-                    firstName = table.Column<string>(nullable: true),
-                    lastName = table.Column<string>(nullable: true),
-                    MainAdressesId = table.Column<int>(nullable: true)
+                    UpdatedOn = table.Column<DateTime>(nullable: false),
+                    FirstName = table.Column<string>(nullable: true),
+                    LastName = table.Column<string>(nullable: true),
+                    PrimaryAddressId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Customers", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Customers_CustomerAdresses_MainAdressesId",
-                        column: x => x.MainAdressesId,
-                        principalTable: "CustomerAdresses",
+                        name: "FK_Customers_CustomerAddresses_PrimaryAddressId",
+                        column: x => x.PrimaryAddressId,
+                        principalTable: "CustomerAddresses",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -234,9 +234,9 @@ namespace SolarCoffee.Data.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Customers_MainAdressesId",
+                name: "IX_Customers_PrimaryAddressId",
                 table: "Customers",
-                column: "MainAdressesId");
+                column: "PrimaryAddressId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -266,7 +266,7 @@ namespace SolarCoffee.Data.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "CustomerAdresses");
+                name: "CustomerAddresses");
         }
     }
 }
