@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksolar_coffee_frontend"]=self["webpackChunksolar_coffee_frontend"]||[]).push([[594],{6053:function(n,e,t){t.r(e),t.d(e,{default:function(){return l}});var s=function(){var n=this;n._self._c;return n._m(0)},u=[function(){var n=this,e=n._self._c;return e("div",{staticClass:"about"},[e("h1",[n._v("This is an about page")])])}],r=t(1656),f={},a=(0,r.A)(f,s,u,!1,null,null,null),l=a.exports}}]);
+//# sourceMappingURL=about.4973c223.js.map
