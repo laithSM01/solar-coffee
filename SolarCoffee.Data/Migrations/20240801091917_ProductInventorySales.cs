@@ -9,7 +9,7 @@ namespace SolarCoffee.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Products",
+                name: "Product",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -67,7 +67,7 @@ namespace SolarCoffee.Data.Migrations
                     table.ForeignKey(
                         name: "FK_ProductInventorys_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "Products",
+                        principalTable: "Product",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -88,7 +88,7 @@ namespace SolarCoffee.Data.Migrations
                     table.ForeignKey(
                         name: "FK_ProductInventorySnapshots_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "Products",
+                        principalTable: "Product",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -109,7 +109,7 @@ namespace SolarCoffee.Data.Migrations
                     table.ForeignKey(
                         name: "FK_SalesOrderItems_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "Products",
+                        principalTable: "Product",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
@@ -123,17 +123,17 @@ namespace SolarCoffee.Data.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_ProductInventorys_ProductId",
                 table: "ProductInventorys",
-                column: "ProductId");
+                column: "Product");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ProductInventorySnapshots_ProductId",
                 table: "ProductInventorySnapshots",
-                column: "ProductId");
+                column: "Product");
 
             migrationBuilder.CreateIndex(
                 name: "IX_SalesOrderItems_ProductId",
                 table: "SalesOrderItems",
-                column: "ProductId");
+                column: "Product");
 
             migrationBuilder.CreateIndex(
                 name: "IX_SalesOrderItems_SalesOrderId",
@@ -158,7 +158,7 @@ namespace SolarCoffee.Data.Migrations
                 name: "SalesOrderItems");
 
             migrationBuilder.DropTable(
-                name: "Products");
+                name: "Product");
 
             migrationBuilder.DropTable(
                 name: "SalesOrders");

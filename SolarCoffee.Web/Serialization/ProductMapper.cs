@@ -3,7 +3,7 @@ using SolarCoffee.Api.ViewModels;
 namespace SolarCoffee.Api.Serialization
 {
     /* responsibility of this Class
-     * able to give us a viewModel for product
+     * able to give us a viewModel for Product
      * when we pass a DataModel
      */
     public static class ProductMapper

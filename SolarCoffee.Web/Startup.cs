@@ -11,12 +11,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 using SolarCoffee.Data;
 using SolarCoffee.Services.Customer;
 using SolarCoffee.Services.Inventory;
 using SolarCoffee.Services.Order;
 using SolarCoffee.Services.product;
-
+using SolarCoffee.Services.product;
 
 namespace SolarCoffee.Web
 {
@@ -32,16 +33,19 @@ namespace SolarCoffee.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
-            services.AddDbContext<SolardbContext>(
-                opts =>
+            services.AddCors();
+            services.AddControllers().AddNewtonsoftJson(opts =>
             {
+                opts.SerializerSettings.ContractResolver = new DefaultContractResolver
+                {
+                    NamingStrategy = new CamelCaseNamingStrategy()
+                };
+            });
+            services.AddDbContext<SolardbContext>(opts => {
                 opts.EnableDetailedErrors();
                 opts.UseNpgsql(Configuration.GetConnectionString("solar_dev"));
             });
-            //hey dotnet anytime i ask for a productservice , provide me with a productService instance
-           services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IProductService, ProductService>();
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<IInventoryService, InventoryService>();
             services.AddTransient<IOrderService, OrderService>();
@@ -53,11 +57,14 @@ namespace SolarCoffee.Web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             }
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
             app.UseAuthorization();
 

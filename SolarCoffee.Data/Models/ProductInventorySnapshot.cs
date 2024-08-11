@@ -4,8 +4,8 @@ using System.Text;
 
 namespace SolarCoffee.Data.Models
 {
-    /* We are recording the quantityonHand for product for any given point in time
-     * and that sense will provide us with auto trail of product inventory over time
+    /* We are recording the quantityonHand for Product for any given point in time
+     * and that sense will provide us with auto trail of Product inventory over time
     */
     public class ProductInventorySnapshot
     {

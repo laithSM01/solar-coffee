@@ -7,6 +7,7 @@ using SolarCoffee.Services.Inventory;
 using SolarCoffee.Web.Serialization;
 using SolarCoffee.Web.ViewModels;
 
+
 namespace SolarCoffee.Web.Controllers
 {
     [ApiController]
@@ -29,11 +30,11 @@ namespace SolarCoffee.Web.Controllers
                 .Select(pi => new ProductInventoryModel
                 {
                     Id = pi.Id,
-                    Product = ProductMapper.SerializeProductModel(pi.Product),
+                 //   Product = ProductMapper.SerializeProductModel(pi.Product),
                     IdealQuantity = pi.IdealQuantity,
                     QuantityOnHand = pi.QuantityOnHand
                 })
-                .OrderBy(inv => inv.Product.Name)
+              //  .OrderBy(inv => inv.Product.Name)
                 .ToList();
             return Ok(inventory);
         }
@@ -57,7 +58,7 @@ namespace SolarCoffee.Web.Controllers
             logger.LogInformation("Getting all snapshot history");
             try
             {
-                var snapShotHistory = inventoryService.GetSnapShotHistory();
+                var snapShotHistory = inventoryService.GetSnapshotHistory();
                 // get distinct points in timeline was collected
                 var timeLineMarkers = snapShotHistory.Select(i => i.SnapShotTime).Distinct().ToList();
                 // get qunatities grouped by id

@@ -31,7 +31,7 @@ namespace SolarCoffee.Services.product
             try
             {
                 _db.Products.Add(product);
-                // newInventory record for product
+                // newInventory record for Product
                 var newInventory = new ProductInventory
                 {
                     Product = product,
@@ -39,13 +39,13 @@ namespace SolarCoffee.Services.product
                     IdealQuantity = 10,
                 };
                 // we added it in Inventories table for tracking
-                _db.ProductInventories.Add(newInventory);
+                _db.ProductInventorys.Add(newInventory);
                 _db.SaveChanges();
 
                 return new ServiceResponse<Data.Models.Product> {
                     Data = product,
                     Time = DateTime.UtcNow,
-                    Message = "Saved new product",
+                    Message = "Saved new Product",
                     IsSuccess = true
                 };
             }
@@ -54,7 +54,7 @@ namespace SolarCoffee.Services.product
                 {
                     Data = product,
                     Time = DateTime.UtcNow,
-                    //Message = "Error saving new product",
+                    //Message = "Error saving new Product",
                     Message = ex.StackTrace,
                     IsSuccess = false
                 };
@@ -73,7 +73,7 @@ namespace SolarCoffee.Services.product
                 {
                     Data = product,
                     Time = DateTime.UtcNow,
-                    Message = "product Archived",
+                    Message = "Product Archived",
                     IsSuccess = true
                 };
             }

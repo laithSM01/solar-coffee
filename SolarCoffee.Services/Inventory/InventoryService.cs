@@ -29,7 +29,7 @@ namespace SolarCoffee.Services.Inventory
         /// <returns></returns>
         public ProductInventory GetByProductId(int productId)
         {
-            return _db.ProductInventories
+            return _db.ProductInventorys
                 .Include(pi => pi.Product)
                 .FirstOrDefault(pi => pi.Product.Id == productId);
         }
@@ -40,10 +40,25 @@ namespace SolarCoffee.Services.Inventory
         /// <returns></returns>
         List<ProductInventory> IInventoryService.GetCurrentInventory()
         {
-            return _db.ProductInventories
+            var x = _db.ProductInventorys
                .Include(pi => pi.Product)
                .Where(pi => !pi.Product.IsArchived)
                .ToList();
+
+            // Logging the state of Product before Select statement
+            foreach (var item in x)
+            {
+                if (item.Product == null)
+                {
+                    Console.WriteLine($"Product is null for ProductInventory with ID: {item.Id}");
+                }
+                else
+                {
+                    Console.WriteLine($"Product is not null for ProductInventory with ID: {item.Id}");
+                }
+            }
+
+            return x;
         }
 
         /// <summary>
@@ -56,7 +71,7 @@ namespace SolarCoffee.Services.Inventory
             var earliest = DateTime.UtcNow - TimeSpan.FromHours(2);
 
             return _db.ProductInventorySnapshots
-                .Include(snap => snap.Product) //know snapshot by product
+                .Include(snap => snap.Product) //know snapshot by Product
                 .Where(snap
                     => snap.SnapShotTime > earliest
                        && !snap.Product.IsArchived) //dont get Archived products
@@ -64,7 +79,7 @@ namespace SolarCoffee.Services.Inventory
         }
 
         /// <summary>
-        /// Updates number of units available of the provided product id
+        /// Updates number of units available of the provided Product id
         /// Adjusts QuantityOnHand by adjustment value
         /// </summary>
         /// <param name="id">productId</param>
@@ -74,7 +89,7 @@ namespace SolarCoffee.Services.Inventory
         {
             try
             {
-                var inventory = _db.ProductInventories
+                var inventory = _db.ProductInventorys
                     .Include(inv => inv.Product)
                     .First(inv => inv.Product.Id == id);
 
@@ -121,7 +136,7 @@ namespace SolarCoffee.Services.Inventory
         {
             var now = DateTime.UtcNow;
 
-            var inventories = _db.ProductInventories
+            var inventories = _db.ProductInventorys
                 .Include(inv => inv.Product)
                 .ToList();
 

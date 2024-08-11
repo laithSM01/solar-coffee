@@ -316,7 +316,7 @@ namespace SolarCoffee.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("SolarCoffee.Data.Models.ProductInventory", b =>
@@ -332,7 +332,7 @@ namespace SolarCoffee.Data.Migrations
                     b.Property<int>("IdealQuantity")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("ProductId")
+                    b.Property<int?>("Product")
                         .HasColumnType("integer");
 
                     b.Property<int>("QuantityOnHand")
@@ -343,7 +343,7 @@ namespace SolarCoffee.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("Product");
 
                     b.ToTable("ProductInventorys");
                 });
@@ -355,7 +355,7 @@ namespace SolarCoffee.Data.Migrations
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<int?>("ProductId")
+                    b.Property<int?>("Product")
                         .HasColumnType("integer");
 
                     b.Property<int>("QuantityOnHand")
@@ -366,7 +366,7 @@ namespace SolarCoffee.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("Product");
 
                     b.ToTable("ProductInventorySnapshots");
                 });
@@ -404,7 +404,7 @@ namespace SolarCoffee.Data.Migrations
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<int?>("ProductId")
+                    b.Property<int?>("Product")
                         .HasColumnType("integer");
 
                     b.Property<int>("Quantity")
@@ -415,7 +415,7 @@ namespace SolarCoffee.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("Product");
 
                     b.HasIndex("SalesOrderId");
 
@@ -484,14 +484,14 @@ namespace SolarCoffee.Data.Migrations
                 {
                     b.HasOne("SolarCoffee.Data.Models.Product", "Product")
                         .WithMany()
-                        .HasForeignKey("ProductId");
+                        .HasForeignKey("Product");
                 });
 
             modelBuilder.Entity("SolarCoffee.Data.Models.ProductInventorySnapshot", b =>
                 {
                     b.HasOne("SolarCoffee.Data.Models.Product", "Product")
                         .WithMany()
-                        .HasForeignKey("ProductId");
+                        .HasForeignKey("Product");
                 });
 
             modelBuilder.Entity("SolarCoffee.Data.Models.SalesOrder", b =>
@@ -505,7 +505,7 @@ namespace SolarCoffee.Data.Migrations
                 {
                     b.HasOne("SolarCoffee.Data.Models.Product", "Product")
                         .WithMany()
-                        .HasForeignKey("ProductId");
+                        .HasForeignKey("Product");
 
                     b.HasOne("SolarCoffee.Data.Models.SalesOrder", null)
                         .WithMany("SalesOrderItems")
