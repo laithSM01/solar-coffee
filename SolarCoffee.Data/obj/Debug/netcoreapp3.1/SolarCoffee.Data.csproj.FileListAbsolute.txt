@@ -1,0 +1,22 @@
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.AssemblyInfoInputs.cache
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.AssemblyInfo.cs
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.sourcelink.json
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.csproj.AssemblyReference.cache
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.deps.json
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.dll
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.pdb
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.dll
+C:\Users\Sitech\Desktop\Laith\Solar Coffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.pdb
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.deps.json
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.dll
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.pdb
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.csproj.AssemblyReference.cache
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.AssemblyInfoInputs.cache
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.AssemblyInfo.cs
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.sourcelink.json
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.dll
+C:\Users\Sitech\source\repos\SolarCoffe\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.pdb
